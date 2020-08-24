@@ -27,7 +27,7 @@ Given The calculator is on.
 When I type in "signs without brackets" like +- or -+ etc
 Then I see the "Invalid sign message" as the result.
 
-## Scenario: Addition of two positive numbers with result going out of range
+## Scenario: Addition of two numbers with result going out of range
 
 Given The calculator is on.  
 When I type in "positive number" And I press "plus"
