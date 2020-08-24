@@ -31,5 +31,6 @@ Then I see the "Invalid sign message" as the result.
 
 Given The calculator is on.  
 When I type in "positive number" And I press "plus"
-And I type in "positive number" And I press "equals" and result going out of range.  
+And I type in "positive number" And I press "equals"
+And result going out of range.  
 Then I see the "out of range message" as the result.
